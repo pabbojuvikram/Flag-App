@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+body {
+  background-color: #d4f1f7;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App {
+  font-family: AvenerLight;
+  background-color: white;
+}
+h3 {
+  color: #1dcdf1;
+}
+#panel1 {
+  width: 585px;
+  height: auto;
+  float: left;
+}
+#panel2 {
+  width: 400px;
+  height: auto;
+  float: left;
+}
+#panel3 {
+  width: 490px;
+  margin-top: 28px;
+  height: auto;
+  float: left;
+}
+.maincontainer {
+  background-color: #d4f1f7;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.Step1 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  display: block;
+  margin-left: 45px;
+}
+
+.continentinput {
+  color: black;
+  display: block;
+  float: left;
+  margin-left: 176px;
+  width: 228px;
+  height: 30px;
+}
+.dropdowncontinent {
+  background-color: white;
+  width: 231px;
+  margin-top: 52px;
+  text-align: center;
+}
+.dropdowncontinent div,.dropdowncountry div {
+  border-bottom: 0.5px solid black;
+  height: 30px;
+}
+.dropdowncontinent div:hover {
+  background-color: #1dcdf1;
+}
+.continentText {
+  position: absolute;
+  top: 402px;
+  left: 185px;
+  margin-left: 50px;
+}
+.continentSelected {
+  font-size: 20px;
+  position: absolute;
+  top: 430px;
+  margin-left: 240px;
+}
+.Step2 {
+  position: absolute;
+  top: 20px;
+  display: block;
+
+  margin-left: 610px;
+}
+.countryinput {
+  position: absolute;
+  top: 200px;
+  display: block;
+  margin-left: 111px;
+  width: 228px;
+  height: 30px;
+}
+.dropdowncountry {
+  top: 236px;
+  margin-left: 111px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  min-width: 233px;
+  text-decoration: none;
+  display: block;
+}
+.flagText {
+  font-size: 15px;
+  position: absolute;
+  margin-left: 1250px;
+  top: 50px;
+  display: block;
+}
+.flag {
+  font-size: 20px;
+  position: absolute;
+  margin-left: 191px;
+  top: 198px;
+}
+.button {
+  position: relative;
+  right: 50px;
+  right: 10px;
+  top: 110px;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #1dcdf1;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 3px;
+}
